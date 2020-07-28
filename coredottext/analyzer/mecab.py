@@ -41,7 +41,7 @@ def mordict(sent):
     return result
 
 
-def morpheme(sent, mor=['NNG','NNP'], p=0):
+def morpheme(sent, tag=['NNG', 'NNP'], p=0):
     try:
         if type(sent) == list:
             temp = []
@@ -51,11 +51,11 @@ def morpheme(sent, mor=['NNG','NNP'], p=0):
                 m = t.parseToNode(i)
                 parsed = []
                 while m:
-                    if type(mor) == list:
-                        if m.feature.split(',')[0] in mor:
+                    if type(tag) == list:
+                        if m.feature.split(',')[0] in tag:
                             parsed.append(m.surface)
                     else:
-                        if m.feature.split(',')[0]==mor:
+                        if m.feature.split(',')[0] == tag:
                             parsed.append(m.surface)
                     m = m.next
                 temp.append(parsed)
@@ -70,14 +70,14 @@ def morpheme(sent, mor=['NNG','NNP'], p=0):
             m = t.parseToNode(sent)
             parsed = []
             while m:
-                if type(mor) == list:
-                    if m.feature.split(',')[0] in mor:
+                if type(tag) == list:
+                    if m.feature.split(',')[0] in tag:
                         parsed.append(m.surface)
                 else:
-                    if m.feature.split(',')[0]==mor:
+                    if m.feature.split(',')[0] == tag:
                         parsed.append(m.surface)
                 m = m.next
-            if p!=0:
+            if p != 0:
                 print('[%s]' % ', '.join(map(str, parsed)))
             return parsed
 
