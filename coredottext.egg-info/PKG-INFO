@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: coredottext
+Version: 0.0.1
+Summary: Text Mining Tool
+Home-page: http://packages.python.org/coredottext
+Author: Core.Today
+Author-email: help@core.today
+License: UNIST
+Description: : Core.Text
+        
+        # Introduction
+        텍스트 마이닝을 위한 도구
+        - API를 통한 파싱
+        - 한국어에 특화
+        
+        
+        # Installation
+        python setup.py install
+        
+        
+        # Tutorial
+        ## TextClient
+        1. 형태소 분석기 API를 연결
+        - 연결 없이 이미 파싱된 리스트를 넣을 수 있음.
+        
+        2.
+        
+        # References
+        
+        
+        # Contributors
+        
+        
+Keywords: CoreDotToday Text Mining Library
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Utilities
