@@ -1,4 +1,4 @@
-![DOGEAPI](docs/static/logo.svg)
+![CoreDotText](docs/static/logo.svg)
 
 # Introduction
 텍스트 마이닝을 위한 도구
