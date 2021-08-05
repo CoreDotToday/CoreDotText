@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 960 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
     <style type="text/css">
     html, body{
@@ -16,7 +16,7 @@
         display: block;
         font: 10.5em 'Helvetica';
         width: 960px;
-        height: 300px;
+        height: 200px;
         margin: 0 auto;
     }
 
