@@ -1,4 +1,4 @@
-: Core.Text
+![DOGEAPI](docs/static/logo.gif)
 
 # Introduction
 텍스트 마이닝을 위한 도구
